@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #ffffff;
+}
+
+.navbar-logo a{
+  color: #ffffff;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.navbar-links{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li a{
+  color: #7f7d7d;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar-links li a:hover{
+  color: #fef9f9ee;
+}
+
+.navbar-profile a {
+  color: #b5b1b1;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 20px;
+  background-color: #333;
+  font-size: 16px;
+  border: 1px solid #ffffff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-profile a:hover{
+  background-color: #000000ee;
+  color: #f1e8e8;
+}
+
+.profile-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #fff;
+}
+
+.porofile-container{
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.profile-picture{
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.porofile-name{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.porofile-bio{
+  font-size: 40px;
+  color: #3e3d3d;
+  font-style: oblique;
+  margin-bottom: 20px;
+}
+
+.porofile-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.porofile-button:hover{
+  background-color: #000000;
+  color: #fff;
+}
+
+.about-nav{
+  background-color: #fff;
+  margin: 0;
+  padding: none;
+}
+
+.about-nav h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
